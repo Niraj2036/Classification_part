@@ -1,4 +1,4 @@
-# Machine Learning Workflow
+# Classification Workflow
 
 ## Overview
 
