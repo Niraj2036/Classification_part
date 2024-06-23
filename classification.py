@@ -309,7 +309,7 @@ def create_and_save_graphs(df_initial, df_final, output_dir='graphs'):
         plt.savefig(os.path.join(output_dir, f'outlier_percentage_class_{cls}.png'))
         plt.close()
 
-    # UMAP scatter plot for each class with different colors for outliers
+    # UMAP scatter plot before and after preprocessing
     if df_final.shape[1] > 2:
         umap = UMAP(n_components=2)
         embedding = umap.fit_transform(df_final.iloc[:, :-1])
