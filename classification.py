@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from xgboost import XGBClassifier
@@ -14,12 +13,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.preprocessing import StandardScaler
 import os
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 from umap import UMAP
 import plotly.express as px
-import numpy as np
 from scipy.stats import zscore
 
 def preprocess_data(df, max_unique_values=10):
